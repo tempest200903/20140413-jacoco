@@ -1,0 +1,21 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 20140413-jacoco 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.5.7.201204190339:help (default-cli) @ 20140413-jacoco ---
+[INFO] org.jacoco:jacoco-maven-plugin:0.5.7.201204190339
+
+JaCoCo :: Maven Plugin
+  The JaCoCo Maven Plugin provides the JaCoCo runtime agent to your tests and
+  allows basic report creation.
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.989s
+[INFO] Finished at: Sun Jul 06 17:25:49 JST 2014
+[INFO] Final Memory: 10M/309M
+[INFO] ------------------------------------------------------------------------

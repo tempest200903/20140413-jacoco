@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 20140413-jacoco 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.5.7.201204190339:help (default-cli) @ 20140413-jacoco ---
+[INFO] org.jacoco:jacoco-maven-plugin:0.5.7.201204190339
+
+JaCoCo :: Maven Plugin
+  The JaCoCo Maven Plugin provides the JaCoCo runtime agent to your tests and
+  allows basic report creation.
+
+This plugin has 3 goals:
+
+jacoco:help
+  Display help information on jacoco-maven-plugin.
+  Call
+    mvn jacoco:help -Ddetail=true -Dgoal=<goal-name>
+  to display parameter details.
+
+jacoco:prepare-agent
+  Prepares a property pointing to the JaCoCo runtime agent that can be passed as
+  a VM argument to the application under test. Depending on the project
+  packaging type by default a property with the following name is set:
+  - tycho.testArgLine for packaging type eclipse-test-plugin and
+  - argLine otherwise.
+  Resulting coverage information is collected during execution and by default
+  written to a file when the process terminates.
+
+jacoco:report
+  Creates a code coverage report for a single project in multiple formats (HTML,
+  XML, and CSV).
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.969s
+[INFO] Finished at: Sun Jul 06 17:20:33 JST 2014
+[INFO] Final Memory: 10M/309M
+[INFO] ------------------------------------------------------------------------
